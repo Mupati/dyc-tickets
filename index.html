@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <title>Tickets - DYC Choir</title>
+  </head>
+  <body>
+    <header></header>
+    <main class="container mt-5">
+      <div class="egoticket_tickets">Please wait...Loading Tickets.</div>
+    </main>
+    <footer></footer>
+    <script type="text/javascript">
+      (function () {
+        var ego = document.createElement("script");
+        ego.type = "text/javascript";
+        ego.async = true;
+        ego.src =
+          "https://egotickets.com/embed/dynamic-choir-crystal-anniversary.js?skip_mobile=true";
+        (
+          document.getElementsByTagName("head")[0] ||
+          document.getElementsByTagName("body")[0]
+        ).appendChild(ego);
+      })();
+    </script>
+    <noscript
+      >Please enable JavaScript to view the
+      <a href="https://egotickets.com/?ref_noscript"
+        >tickets enabled by eGotickets.</a
+      ></noscript
+    >
+  </body>
+</html>
